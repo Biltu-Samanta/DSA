@@ -1,0 +1,39 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.showToolbar": "never",
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.snippetSuggestions": "none",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.suggestSnippets": false,
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "enabled",
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir ; gcc $fileName -o $fileNameWithoutExt ; if ($?) { .\\$fileNameWithoutExt }",
+    "cpp": "cd $dir ; g++ $fileName -o $fileNameWithoutExt ; if ($?) { .\\$fileNameWithoutExt }"
+  }
+}
